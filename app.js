@@ -36,4 +36,10 @@ const APP = {
 
 function isMobile() { return window.innerWidth <= 768; }
 
+const DEMO_ACCOUNTS = [
+  { email: 'sarah.chen@demo.com',    password: 'demo123', name: 'Sarah Chen',      role: 'candidate', title: 'ML Engineer' },
+  { email: 'marcus.j@demo.com',      password: 'demo123', name: 'Marcus Johnson',  role: 'candidate', title: 'Product Manager' },
+  { email: 'lisa.park@technova.com', password: 'demo123', name: 'Lisa Park',       role: 'recruiter', title: 'Head of Talent' },
+];
+
 handleRoute();
