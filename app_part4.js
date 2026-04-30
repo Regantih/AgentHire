@@ -1096,7 +1096,7 @@ if (document.readyState !== 'loading') {
 
     /* ── Pills / Badges ── */
     .pill { display: inline-flex; align-items: center; padding: 3px 10px; border-radius: 20px; font-size: 12px; font-weight: 600; }
-    .pill-green { background: #059669'20; color: #059669; background: rgba(5,150,105,0.15); }
+    .pill-green { color: #059669; background: rgba(5,150,105,0.15); }
     .pill-amber { background: rgba(217,119,6,0.15); color: #d97706; }
     .pill-gray { background: rgba(100,116,139,0.15); color: #94a3b8; }
     .pill-blue { background: rgba(37,99,235,0.15); color: #60a5fa; }
